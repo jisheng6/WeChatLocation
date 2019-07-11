@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yufs.wechatlocation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_select_address"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/txt_color"
+            android:background="@drawable/bg_btn_shape_44"
+            android:layout_height="45dp"
+            android:text="获取具体地址" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:text="Result："
+            android:layout_marginTop="10dp"
+            android:textColor="@color/txt_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
